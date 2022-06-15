@@ -32,4 +32,13 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 O/P:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173802421-a87d2e49-0f2b-4375-8c86-3029462dd7a8.png)<br>
-<matplotlib.image.AxesImage at 0x20a784a2a90>
+2)Develop a pgm to display image using matplotlib<br>
+import matplotlib.image as mping<br>
+import matplotlib.pyplot as plt<br>
+img=mping.imread('leaf.jpg')<br>
+plt.imshow(img)<br>
+![image](https://user-images.githubusercontent.com/98145090/173804024-27d31380-8335-4e12-a2b8-9c1cc5bf8ae9.png)<br>
+3)Develop a pgm to perform liner transformation rotation<br>
+
+Output:<br>
+ <br>
