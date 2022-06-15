@@ -32,12 +32,16 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 O/P:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173802421-a87d2e49-0f2b-4375-8c86-3029462dd7a8.png)<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
 2)Develop a pgm to display image using matplotlib<br>
 import matplotlib.image as mping<br>
 import matplotlib.pyplot as plt<br>
 img=mping.imread('leaf.jpg')<br>
 plt.imshow(img)<br>
 ![image](https://user-images.githubusercontent.com/98145090/173804024-27d31380-8335-4e12-a2b8-9c1cc5bf8ae9.png)<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
 3)Develop a pgm to perform liner transformation rotation<br>
 from PIL import Image<br>
 img=Image.open("leaf.jpg")<br>
@@ -47,7 +51,41 @@ cv2.WaitKey(0)<br>
 cv2.destroyAllWndows()<br>
 Output:<br>
  ![image](https://user-images.githubusercontent.com/98145090/173805940-de5be5ca-afb4-4154-97fd-0033a2ce123e.png)<br>
-4)Develop a pgm to convert color string to RGB color Values
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+4)Develop a pgm to convert color string to RGB color Values<br>
 
 Output:<br>
-5)
+<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+5)Write a pgm to create image using colors<br>
+
+Output:<br>
+<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+6)Develop a pgm to create image using various colors spaces<br>
+
+Output:<br>
+<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+7)Write a pgm to display the image attribute<br>
+from PIL import Image<br>
+image=Image.open('leaf.jpg')<br>
+print("filename:", image.filename)<br>
+print("Format:",image.format)<br>
+print("Mode:",image.mode)<br>
+print("size:",image.size)<br>
+print("width",image.width)<br>
+print("height",image.height)
+image.close()<br>
+Output:<br>
+![7 leaf](https://user-images.githubusercontent.com/98145090/173809660-e3cfc405-3486-44d5-a9fa-ea7440316743.png)<br>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+8)<br>
+
+Output:<br>
+<br>
