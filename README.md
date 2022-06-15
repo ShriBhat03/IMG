@@ -53,34 +53,25 @@ Output:<br>
  ![image](https://user-images.githubusercontent.com/98145090/173805940-de5be5ca-afb4-4154-97fd-0033a2ce123e.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-4)Develop a pgm to convert color string to RGB color Values<br>
+5)Develop a pgm to convert color string to RGB color Values<br>
 
 Output:<br>
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-5)Write a pgm to create image using colors<br>
+4)Write a pgm to create image using colors<br>
+from PIL import ImageColor
+img1=ImageColor.getrgb("yellow")
+print(img1)
+img2=ImageColor.getrgb("red")
+print(img2)
+Output:<br>
+![image](https://user-images.githubusercontent.com/98145090/173812856-38cce19b-dd95-4a17-8007-67e5a3e67251.png)<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+6)Develop a pgm to create image using various colors spaces<br>
 
 Output:<br>
 <br>
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
-<br>
-6)Develop a pgm to create image using various colors spaces<br>
-import cv2<br>
-import matplotlib.pyplot as plt<br>
-import numpy as np<br>
-img=cv2.imread('leaf.jpg')<br>
-plt.imshow(img)<br>
-plt.show()<br>
-img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
-plt.imshow(img)<br>
-plt.show()<br>
-img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
-plt.imshow(img)<br>
-plt.show()<br>
-image.close()<br>
-Output:<br>
-![image](https://user-images.githubusercontent.com/98145090/173812222-eea9994a-0b06-496c-abac-706fb11938f8.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 7)Write a pgm to display the image attribute<br>
