@@ -32,4 +32,4 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 O/P:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173802421-a87d2e49-0f2b-4375-8c86-3029462dd7a8.png)<br>
-
+<matplotlib.image.AxesImage at 0x20a784a2a90>
