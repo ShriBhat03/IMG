@@ -60,18 +60,30 @@ Output:<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 4)Write a pgm to create image using colors<br>
-from PIL import ImageColor
-img1=ImageColor.getrgb("yellow")
-print(img1)
-img2=ImageColor.getrgb("red")
-print(img2)
+from PIL import ImageColor<br>
+img1=ImageColor.getrgb("yellow")<br>
+print(img1)<br>
+img2=ImageColor.getrgb("red")<br>
+print(img2)<br>
 Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173812856-38cce19b-dd95-4a17-8007-67e5a3e67251.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 6)Develop a pgm to create image using various colors spaces<br>
-
+import cv2<br>
+import matplotlib.pyplot as plt<br>
+import numpy as np<br>
+img=cv2.imread('leaf.jpg')<br>
+plt.imshow(img)<br>
+plt.show()<br>
+img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
+plt.imshow(img)<br>
+plt.show()<br>
+img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
+plt.imshow(img)<br>
+plt.show()<br>
+image.close()<br>
 Output:<br>
-<br>
+![6 leaf](https://user-images.githubusercontent.com/98145090/173813575-bb08cb6a-a370-44f1-adb7-2b81cc6d58fe.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 7)Write a pgm to display the image attribute<br>
