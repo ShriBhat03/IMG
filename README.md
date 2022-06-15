@@ -54,9 +54,11 @@ Output:<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 5)Develop a pgm to convert color string to RGB color Values<br>
-
+from PIL import ImageColor<br>
+img=Image.new('RGB',(200,400),(255,255,0))<br>
+img.show()<br>
 Output:<br>
-<br>
+![image](https://user-images.githubusercontent.com/98145090/173814822-4902a90a-0522-47b2-8938-0e6e344e5352.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 4)Write a pgm to create image using colors<br>
