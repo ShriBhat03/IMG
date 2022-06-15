@@ -39,6 +39,15 @@ img=mping.imread('leaf.jpg')<br>
 plt.imshow(img)<br>
 ![image](https://user-images.githubusercontent.com/98145090/173804024-27d31380-8335-4e12-a2b8-9c1cc5bf8ae9.png)<br>
 3)Develop a pgm to perform liner transformation rotation<br>
+from PIL import Image<br>
+img=Image.open("leaf.jpg")<br>
+img=img.rotate(180)<br>
+img.show()<br>
+cv2.WaitKey(0)<br>
+cv2.destroyAllWndows()<br>
+Output:<br>
+ ![image](https://user-images.githubusercontent.com/98145090/173805940-de5be5ca-afb4-4154-97fd-0033a2ce123e.png)<br>
+4)Develop a pgm to convert color string to RGB color Values
 
 Output:<br>
- <br>
+5)
