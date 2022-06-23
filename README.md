@@ -32,7 +32,7 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 O/P:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173802421-a87d2e49-0f2b-4375-8c86-3029462dd7a8.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 2)Develop a pgm to display image using matplotlib<br>
 import matplotlib.image as mping<br>
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt<br>
 img=mping.imread('leaf.jpg')<br>
 plt.imshow(img)<br>
 ![image](https://user-images.githubusercontent.com/98145090/173804024-27d31380-8335-4e12-a2b8-9c1cc5bf8ae9.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 3)Develop a pgm to perform liner transformation rotation<br>
 from PIL import Image<br>
@@ -51,7 +51,7 @@ cv2.WaitKey(0)<br>
 cv2.destroyAllWndows()<br>
 Output:<br>
  ![image](https://user-images.githubusercontent.com/98145090/173805940-de5be5ca-afb4-4154-97fd-0033a2ce123e.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 5)Develop a pgm to convert color string to RGB color Values<br>
 from PIL import ImageColor<br>
@@ -59,7 +59,7 @@ img=Image.new('RGB',(200,400),(255,255,0))<br>
 img.show()<br>
 Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173814822-4902a90a-0522-47b2-8938-0e6e344e5352.png)<br>
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 4)Write a pgm to create image using colors<br>
 from PIL import ImageColor<br>
@@ -69,7 +69,7 @@ img2=ImageColor.getrgb("red")<br>
 print(img2)<br>
 Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173812856-38cce19b-dd95-4a17-8007-67e5a3e67251.png)<br>
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 6)Develop a pgm to create image using various colors spaces<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -86,7 +86,7 @@ plt.show()<br>
 image.close()<br>
 Output:<br>
 ![6 leaf](https://user-images.githubusercontent.com/98145090/173813575-bb08cb6a-a370-44f1-adb7-2b81cc6d58fe.png)<br>
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 7)Write a pgm to display the image attribute<br>
 from PIL import Image<br>
@@ -101,7 +101,7 @@ image.close()<br>
 Output:<br>
 ![7 leaf](https://user-images.githubusercontent.com/98145090/173809660-e3cfc405-3486-44d5-a9fa-ea7440316743.png)<br>
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 8)Develop a pgm to read image using URL<br>
 from skimage import io<br>
@@ -112,7 +112,7 @@ plt.imshow(image)<br>
 plt.show()<br>
 Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/175259317-80315410-53e4-4645-9910-13e37d4dbf29.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 9)Write a pgm to mask and blur the image <br>
 9.1)import cv2<br>
@@ -159,7 +159,7 @@ Output:![image](https://user-images.githubusercontent.com/98145090/175263744-b6e
 plt.imshow(blur)<br>
 plt.show()<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175263790-3ce98372-4639-49ec-9d21-19a2a23894bc.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 10) Write a pgm to perform arithmatic operations on images<br>
 import cv2<br>
@@ -192,11 +192,11 @@ plt.show()<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175271947-e061e046-d02f-432a-ab7d-c8f37110bf82.png)
 <br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 11)
 Output:<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 12)
 import cv2 as c<br>
@@ -210,7 +210,7 @@ img.save('IMAGES.jpg')<br>
 img.show()<br>
 c.waitKey(0)<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175273618-276115e7-d2bb-4c02-a128-0f53531ea99f.png)<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 13)<br>import cv2<br>
 img=cv2.imread('butterfly.jpg')<br>
@@ -225,7 +225,7 @@ Output:![image](https://user-images.githubusercontent.com/98145090/175277298-b27
 
 ![image](https://user-images.githubusercontent.com/98145090/175276954-cec613e8-9b3f-4207-a558-0e4df4eb54d3.png)<br>
 <br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 14)import cv2<br>
 img=cv2.imread('F://butterfly2.png')<br>
@@ -248,23 +248,23 @@ Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/175281835-e527f194-54b5-406e-b526-f30d86855c71.png)<br>
 ![image](https://user-images.githubusercontent.com/98145090/175281856-1628742d-cc8d-4476-84a0-6b149c33fd1c.png)<br>
 <br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 15)
 Output:<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 16)
 Output:<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 17)
 Output:<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 18)
 Output:<br>
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 19)
 Output:<br>
