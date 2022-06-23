@@ -212,8 +212,19 @@ c.waitKey(0)<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175273618-276115e7-d2bb-4c02-a128-0f53531ea99f.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-13)
-Output:<br>
+13)<br>import cv2<br>
+img=cv2.imread('butterfly.jpg')<br>
+print('Original image length width',img.shape)<br>
+cv2.imshow('Original image',img)<br>
+cv2.waitKey(0)<br>
+imgresize=cv2.resize(img,(200,300))<br>
+cv2.imshow('Resized image',imgresize)<br>
+print('Resized image length width',imgresize.shape)<br>
+cv2.waitKey(0)<br>
+Output:![image](https://user-images.githubusercontent.com/98145090/175277298-b27ff34d-ad2f-4ad2-b6a8-c8abd5ca82ec.png)<br>
+
+![image](https://user-images.githubusercontent.com/98145090/175276954-cec613e8-9b3f-4207-a558-0e4df4eb54d3.png)<br>
+<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 14)
