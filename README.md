@@ -103,7 +103,24 @@ Output:<br>
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-8)<br>
-
+8)Develop a pgm to read image using URL<br>
+from skimage import io<br>
+import matplotlib.pyplot as plt<br>
+url='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc46c24cf519daecc/60df72b928853322c5823d7f/debc6f7ab23f69c656a6e7eb7d6912335f0d75f7.jpg?quality=80&width=620&format=pjpg&auto=webp'<br>
+image=io.imread(url)<br>
+plt.imshow(image)<br>
+plt.show()<br>
 Output:<br>
+![image](https://user-images.githubusercontent.com/98145090/175259317-80315410-53e4-4645-9910-13e37d4dbf29.png)<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
+9)
+Output:<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+10)
+Output:<br>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
+<br>
+11)
+Output:<br>
