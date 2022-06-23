@@ -227,8 +227,27 @@ Output:![image](https://user-images.githubusercontent.com/98145090/175277298-b27
 <br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-14)
+14)import cv2<br>
+img=cv2.imread('F://butterfly2.png')<br>
+gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)<br>
+hsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)<br>
+lab=cv2.cvtColor(img,cv2.COLOR_BGR2LAB)<br>
+hls=cv2.cvtColor(img,cv2.COLOR_BGR2HLS)<br>
+yuv=cv2.cvtColor(img,cv2.COLOR_BGR2YUV)<br>
+cv2.imshow("GRAY image",gray)<br>
+cv2.imshow("HSV image",hsv)<br>
+cv2.imshow("LAB image",lab)<br>
+cv2.imshow("HLS image",hls)<br>
+cv2.imshow("YUV image",yuv)<br>
+cv2.waitKey(0)<br>
+cv2.destroyAllWindows()<br>
 Output:<br>
+![image](https://user-images.githubusercontent.com/98145090/175281759-538502ba-0702-4e32-94aa-417f41acf825.png)<br>
+![image](https://user-images.githubusercontent.com/98145090/175281782-66d150f2-72d4-4ced-84e6-cb4ae72bca08.png)<br>
+![image](https://user-images.githubusercontent.com/98145090/175281805-30fe455f-e65e-4bcd-a6dd-20108106d7cf.png)<br>
+![image](https://user-images.githubusercontent.com/98145090/175281835-e527f194-54b5-406e-b526-f30d86855c71.png)<br>
+![image](https://user-images.githubusercontent.com/98145090/175281856-1628742d-cc8d-4476-84a0-6b149c33fd1c.png)<br>
+<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 15)
