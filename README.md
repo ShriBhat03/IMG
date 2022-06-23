@@ -161,8 +161,37 @@ plt.show()<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175263790-3ce98372-4639-49ec-9d21-19a2a23894bc.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-10)
-Output:<br>
+10) Write a pgm to perform arithmatic operations on images<br>
+import cv2<br>
+import numpy as np<br>
+import matplotlib.image as mping<br>
+import matplotlib.pyplot as plt<br>
+#Read file<br>
+img1=cv2.imread('re.jpg')<br>
+img2=cv2.imread('resi.jpg')<br>
+#numpy add<br>
+fimg1 = img1 - img2<br>
+plt.imshow(fimg1)<br>
+plt.show()<br>
+#saving<br>
+cv2.imwrite('output.jpg',fimg1)<br>
+fimg2 = img1 - img2<br>
+plt.imshow(fimg2)<br>
+plt.show()<br>
+#saving<br>
+cv2.imwrite('output.jpg',fimg2)<br>
+fimg3 = img1 * img2<br>
+plt.imshow(fimg3)<br>
+plt.show()<br>
+#saving<br>
+cv2.imwrite('output.jpg',fimg3)<br>
+fimg4 = img1 / img2<br>
+plt.imshow(fimg4)<br>
+plt.show()<br>
+#saving<br>
+cv2.imwrite('output.jpg',fimg4)<br>
+Output:![image](https://user-images.githubusercontent.com/98145090/175271947-e061e046-d02f-432a-ab7d-c8f37110bf82.png)
+<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 11)
