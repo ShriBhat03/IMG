@@ -250,8 +250,12 @@ Output:<br>
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-15)
-Output:<br>
+# 15)Blurr
+Output:![origin1](https://user-images.githubusercontent.com/98145090/176407791-e4a2efbe-7eaa-4fe9-9d8c-3bd11d8a16b5.png)<br>
+![Gauss1](https://user-images.githubusercontent.com/98145090/176407855-1dc3eba0-06b5-49f9-a6b3-06f7d83f9459.png)<br>
+![median1](https://user-images.githubusercontent.com/98145090/176407884-94845861-87a4-4937-8b37-a4fb15574f2b.png)<br>
+![bilat1](https://user-images.githubusercontent.com/98145090/176407736-9303e81b-4434-4eb5-ac6c-7eb86d29eebc.png)<br>
+<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 16)
