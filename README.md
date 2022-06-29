@@ -259,28 +259,28 @@ Output:![origin1](https://user-images.githubusercontent.com/98145090/176408332-6
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-# 16)iMAGEeNHANCEMENT
-#Image Enhancement
-from PIL import Image
-from PIL import ImageEnhance
-image = Image.open('butterfly.jpg')
-image.show()
-enh_bri = ImageEnhance.Brightness(image)
-brightness=1.5
-image_brightened = enh_bri.enhance(brightness)
-image_brightened.show()
-enh_col = ImageEnhance.Color(image)
-color=1.5
-image_colored = enh_col.enhance(color)
-image_colored.show()
+# 16)iMAGEeNHANCEMENT<br>
+#Image Enhancement<br>
+from PIL import Image<br>
+from PIL import ImageEnhance<br>
+image = Image.open('butterfly.jpg')<br>
+image.show()<br>
+enh_bri = ImageEnhance.Brightness(image)<br>
+brightness=1.5<br>
+image_brightened = enh_bri.enhance(brightness)<br>
+image_brightened.show()<br>
+enh_col = ImageEnhance.Color(image)<br>
+color=1.5<br>
+image_colored = enh_col.enhance(color)<br>
+image_colored.show()<br>
 enh_con = ImageEnhance.Contrast(image)
-contrast=1.5
-image_contrasted = enh_con.enhance(contrast)
-image_contrasted.show()
+contrast=1.5<br>
+image_contrasted = enh_con.enhance(contrast)<br>
+image_contrasted.show()<br>
 enh_sha = ImageEnhance.Sharpness(image)
-sharpness=3.0
-image_sharped = enh_sha.enhance(sharpness)
-image_sharped.show()
+sharpness=3.0<br>
+image_sharped = enh_sha.enhance(sharpness)<br>
+image_sharped.show()<br>
 Output:![imgenhance](https://user-images.githubusercontent.com/98145090/176412110-bbfc7cc2-dfba-4080-8bf7-77823b42f6ee.png)<br>
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
