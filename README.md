@@ -251,10 +251,11 @@ Output:<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
 # 15)Blurr
-Output:![origin1](https://user-images.githubusercontent.com/98145090/176407791-e4a2efbe-7eaa-4fe9-9d8c-3bd11d8a16b5.png)<br>
-![Gauss1](https://user-images.githubusercontent.com/98145090/176407855-1dc3eba0-06b5-49f9-a6b3-06f7d83f9459.png)<br>
-![median1](https://user-images.githubusercontent.com/98145090/176407884-94845861-87a4-4937-8b37-a4fb15574f2b.png)<br>
-![bilat1](https://user-images.githubusercontent.com/98145090/176407736-9303e81b-4434-4eb5-ac6c-7eb86d29eebc.png)<br>
+Output:![origin1](https://user-images.githubusercontent.com/98145090/176408332-69516204-658b-4297-bcab-a2bb1a7e3491.png)
+![Gauss1](https://user-images.githubusercontent.com/98145090/176408394-a3d75e53-1708-46c7-92b0-acfdbbf5fdce.png)
+![median1](https://user-images.githubusercontent.com/98145090/176408423-c6cb3e5c-d1ed-4399-a998-fcf71734cf0c.png)
+![bilat1](https://user-images.githubusercontent.com/98145090/176408457-c95b72f7-c466-4c07-87b5-15ef7e5c4ae9.png)
+
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
