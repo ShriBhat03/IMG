@@ -1,5 +1,5 @@
 # IMAGE
-1)Develop a pgm to display the grayscale image using read and write operation<br>
+# 1)Develop a pgm to display the grayscale image using read and write operation<br>
 #plant<br>
 import cv2<br>
 img=cv2.imread('plant.jpg',0)<br>
@@ -34,7 +34,7 @@ O/P:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173802421-a87d2e49-0f2b-4375-8c86-3029462dd7a8.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-2)Develop a pgm to display image using matplotlib<br>
+# 2)Develop a pgm to display image using matplotlib<br>
 import matplotlib.image as mping<br>
 import matplotlib.pyplot as plt<br>
 img=mping.imread('leaf.jpg')<br>
@@ -42,7 +42,7 @@ plt.imshow(img)<br>
 ![image](https://user-images.githubusercontent.com/98145090/173804024-27d31380-8335-4e12-a2b8-9c1cc5bf8ae9.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-3)Develop a pgm to perform liner transformation rotation<br>
+# 3)Develop a pgm to perform liner transformation rotation<br>
 from PIL import Image<br>
 img=Image.open("leaf.jpg")<br>
 img=img.rotate(180)<br>
@@ -53,7 +53,7 @@ Output:<br>
  ![image](https://user-images.githubusercontent.com/98145090/173805940-de5be5ca-afb4-4154-97fd-0033a2ce123e.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-5)Develop a pgm to convert color string to RGB color Values<br>
+# 5)Develop a pgm to convert color string to RGB color Values<br>
 from PIL import ImageColor<br>
 img=Image.new('RGB',(200,400),(255,255,0))<br>
 img.show()<br>
@@ -61,7 +61,7 @@ Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173814822-4902a90a-0522-47b2-8938-0e6e344e5352.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-4)Write a pgm to create image using colors<br>
+# 4)Write a pgm to create image using colors<br>
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
 print(img1)<br>
@@ -70,7 +70,7 @@ print(img2)<br>
 Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/173812856-38cce19b-dd95-4a17-8007-67e5a3e67251.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
-6)Develop a pgm to create image using various colors spaces<br>
+# 6)Develop a pgm to create image using various colors spaces<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 import numpy as np<br>
@@ -88,7 +88,7 @@ Output:<br>
 ![6 leaf](https://user-images.githubusercontent.com/98145090/173813575-bb08cb6a-a370-44f1-adb7-2b81cc6d58fe.png)<br>
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-7)Write a pgm to display the image attribute<br>
+# 7)Write a pgm to display the image attribute<br>
 from PIL import Image<br>
 image=Image.open('leaf.jpg')<br>
 print("filename:", image.filename)<br>
@@ -103,7 +103,7 @@ Output:<br>
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-8)Develop a pgm to read image using URL<br>
+# 8)Develop a pgm to read image using URL<br>
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
 url='https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltc46c24cf519daecc/60df72b928853322c5823d7f/debc6f7ab23f69c656a6e7eb7d6912335f0d75f7.jpg?quality=80&width=620&format=pjpg&auto=webp'<br>
@@ -114,7 +114,7 @@ Output:<br>
 ![image](https://user-images.githubusercontent.com/98145090/175259317-80315410-53e4-4645-9910-13e37d4dbf29.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-9)Write a pgm to mask and blur the image <br>
+# 9)Write a pgm to mask and blur the image <br>
 9.1)import cv2<br>
 import matplotlib.image as mping<br>
 import matplotlib.pyplot as plt<br>
@@ -161,7 +161,7 @@ plt.show()<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175263790-3ce98372-4639-49ec-9d21-19a2a23894bc.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-10) Write a pgm to perform arithmatic operations on images<br>
+# 10) Write a pgm to perform arithmatic operations on images<br>
 import cv2<br>
 import numpy as np<br>
 import matplotlib.image as mping<br>
@@ -194,11 +194,11 @@ Output:![image](https://user-images.githubusercontent.com/98145090/175271947-e06
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-11)
+# 11)
 Output:<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-12)
+# 12)
 import cv2 as c<br>
 import numpy as np<br>
 from PIL import Image<br>
@@ -212,7 +212,7 @@ c.waitKey(0)<br>
 Output:![image](https://user-images.githubusercontent.com/98145090/175273618-276115e7-d2bb-4c02-a128-0f53531ea99f.png)<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-13)<br>import cv2<br>
+# 13)<br>import cv2<br>
 img=cv2.imread('butterfly.jpg')<br>
 print('Original image length width',img.shape)<br>
 cv2.imshow('Original image',img)<br>
@@ -227,7 +227,7 @@ Output:![image](https://user-images.githubusercontent.com/98145090/175277298-b27
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-14)import cv2<br>
+# 14)import cv2<br>
 img=cv2.imread('F://butterfly2.png')<br>
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)<br>
 hsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)<br>
