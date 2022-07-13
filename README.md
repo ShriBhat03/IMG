@@ -285,18 +285,18 @@ Output:![imgenhance](https://user-images.githubusercontent.com/98145090/17641211
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-# 17)Read and Write
-import cv2
-OriginalImg=cv2.imread('naruto.jpg')
-GrayImg=cv2.imread('naruto.jpg',0)
-isSaved=cv2.imwrite('E:/i.jpg',GrayImg)
-cv2.imshow('display original Image', OriginalImg)
-cv2.imshow('display Grayscale Image',GrayImg)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-if isSaved:
-    print('The image is saved succesfully.')
-
+# 17)Read and Write<br>
+import cv2<br>
+OriginalImg=cv2.imread('naruto.jpg')<br>
+GrayImg=cv2.imread('naruto.jpg',0)<br>
+isSaved=cv2.imwrite('E:/i.jpg',GrayImg)<br>
+cv2.imshow('display original Image', OriginalImg)<br>
+cv2.imshow('display Grayscale Image',GrayImg)<br>
+cv2.waitKey(0)<br>
+cv2.destroyAllWindows()<br>
+if isSaved:<br>
+    print('The image is saved succesfully.')<br>
+<br>
 Output: The image is saved succesfully.<br>
  ![read write](https://user-images.githubusercontent.com/98145090/178708440-21929b12-885c-447e-aee4-62e22f459ddd.png)<br>
 ![read write gray](https://user-images.githubusercontent.com/98145090/178708470-4eb1389f-7b08-4300-8436-0564e9c06f42.png)<br>
