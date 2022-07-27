@@ -303,7 +303,20 @@ Output: The image is saved succesfully.<br>
 <br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
-18)
+# 18) Pgm o find min and max value of matrix<br>
+M = [[8,3,4],[8,9,5]]<br>
+<br>
+def getMinMax( M ):<br>
+    maxVal = 0<br>
+    for row in M:<br>
+        if max(row) > maxVal: maxVal = max(row)<br>
+    minVal = maxVal*1<br>
+    for row in M:<br>
+        if min(row) < minVal: minVal = min(row)<br>
+<br>
+    return ( minVal,  maxVal )<br>
+<br>
+getMinMax( M )<br>
 Output:<br>
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 <br>
